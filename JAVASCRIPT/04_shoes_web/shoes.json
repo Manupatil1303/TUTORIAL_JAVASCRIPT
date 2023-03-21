@@ -1,0 +1,23 @@
+{
+    "images": [
+      {
+        "name": "Nike shoe",
+        "src": "shoes/75a2a7678ceef4b320824b539066e63d.jpg",
+        "alt": "Nike shoe",
+        "price": "$149"
+      },
+      {
+        "name": "Adidas shoe",
+        "src": "shoes/854fa9e22d8b6e8585f2a5f5a5dab8f2.jpg",
+        "alt": "Adidas shoe",
+        "price": "$99"
+      },
+      {
+        "name": "Puma shoe",
+        "src": "shoes/a0159a42f129d831a34a716c0f04d3b3.jpg",
+        "alt": "Puma shoe",
+        "price": "$89"
+      }
+    ]
+  }
+  

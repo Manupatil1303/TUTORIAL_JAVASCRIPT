@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+   html, body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        width: 300px;
+        height: 300px;
+       
+    }
+    .cover{
+        width: 250px;
+        height: 150px;
+        border: 2px solid #d33131;
+        display: inline-flex;
+        
+    }
+    .bulb{
+        width: 100px;
+        height: 100px;
+        border: 4p solid rgb(26, 27, 25);
+        border-radius: 65%;
+        background-color: #d9cdcd;
+    margin-top: 10px;
+    }
+.stand{
+    background-color: #a6b2b1;
+
+    width: 30px;
+    height: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.stand1{
+    background-color: #29a399;
+    width: 40px;
+    height: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 250px;
+        border-bottom-right-radius: 250px;
+    margin-left: 30px;
+    margin-top: -6px;
+}
+.btn{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 39px;
+    
+}
+.btn-on{
+    background-color: #8a7cc3;
+    width: 50px;
+    height: 22px;
+    border-radius: 20px;
+}
+.btn-off{
+    background-color: #22dd6d;
+    width: 50px;
+    height: 22px;
+    border-radius: 20px;
+}
+</style>
+<body>
+<div class="cover">
+        <div class="bulb-stage">
+            <div class="bulb" id="bulb"></div>
+            <div class="stand1"></div> 
+            <div class="stand"></div>
+            <div class="stand"></div>
+            <div class="stand"></div>
+     </div>
+   <div class="btn">
+    <button type="button" class="btn-on"  onclick="onBulb()">ON</button>
+        <button type="button" class="btn-off" onclick="offBulb()">OFF</button>
+   </div>
+</div>
+<script src="light.js"></script>
+</body>
+</html>
